@@ -9,17 +9,19 @@ _Monitor mode-ə keçmə:_
 
 **Ifconfig wlan0 down**
 
-1. Iwconfig komadası vasitəsilə wlan0 adapterini monitor mode-ə keçir:
+2. Iwconfig komadası vasitəsilə wlan0 adapterini monitor mode-ə keçir:
 
 **Iwcofig wlan0 mode monitor**
 
-1. Ifconfig komadası vasitəsilə wlan0 adapterini yandır:
+3. Ifconfig komadası vasitəsilə wlan0 adapterini yandır:
 
 **İfconfig wlan0 up**
 
 _YOXLAMAQ ÜÇÜN:_
 
 Terminala iwconfig komandasını yazdıqda **Mode** yazısından sonra **Monitor** yazılmalıdır.
+
+![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture1.png")
 
 ![](RackMultipart20230111-1-l4ew98_html_6c3af8d47dcfbdbe.png)
 
@@ -30,9 +32,9 @@ _Wifilar__ı scan eləmək üçün:_
 
 **Airodump-ng wlan0**
 
-1. Qabağınıza belə bir siyahı çıxacaq:
+3. Qabağınıza belə bir siyahı çıxacaq:
 
-![](RackMultipart20230111-1-l4ew98_html_de7bf95b4d67d4a9.jpg)
+![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture2.png")
 
 **BSSID**** :** bssid göstərilmiş Wifi-ın MAC adressidir(ətraflı scan etdikdə istədiyimiz wifi-ın MAC adressini göstərməliyik)
 
@@ -63,9 +65,10 @@ Komandaya hər hansı bir opsiya əlavə eləmək üçün - və ya – istifadə
 
 _ **Airodump-ng –bssid 30:C5:A6:E7:G8:AA –channel 2 –** __ **write test\_scan wlan0** _
 
-1. Qabağınıza belə bir şey çıxacaq:
+3. Qabağınıza belə bir şey çıxacaq:
 
-![](RackMultipart20230111-1-l4ew98_html_9cf611c66af814ae.jpg)
+
+![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture3.png")
 
 **STATION**** :** STATION istifadəçinin(client) BSSID-sidir.
 
@@ -82,9 +85,9 @@ _Wireshark vasitəsilə decrypt eləmək üçün:_
 3. Açılmış Explorerdə yadda saxladığımız faylın .cap uzantısı ilə olanı seçirik.
 4. Və paketlərin Decrypti açılacaq.
 
-![](RackMultipart20230111-1-l4ew98_html_b6541c2ce294420b.png)
+![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture4.png")
 
-1. Gördüyümüz kimi paketlərdən bildik ki, istifadəçilərdən biri Apple işlədir, digəri isə Xiaomi(router də ola bilər). Az olsa da artıq bir qədər informasiya var.
+5. Gördüyümüz kimi paketlərdən bildik ki, istifadəçilərdən biri Apple işlədir, digəri isə Xiaomi(router də ola bilər). Az olsa da artıq bir qədər informasiya var.
 
 _**Deauth(istifadəçi qovulması) attack eləmək üçün:**_
 
@@ -101,7 +104,7 @@ _ **WEP tipli wifi-lar** __ **ın parolunu hack eləmək üçün:** _
 
 **Aircrack-ng test\_01.cap**
 
-![](RackMultipart20230111-1-l4ew98_html_3a7bb1c63f2e15c2.jpg)
+![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture5.png")
 
 **KEY FOUND** yazısından sonraki MAC adressə oxşayan yazı elə paroldur.
 
