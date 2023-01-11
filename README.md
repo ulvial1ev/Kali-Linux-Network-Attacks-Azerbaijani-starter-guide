@@ -33,7 +33,7 @@ _Wifilar__ı scan eləmək üçün:_
 
 3. Qabağınıza belə bir siyahı çıxacaq:
 
-![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture2.png)
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture2.jpg)
 
 **BSSID**** :** bssid göstərilmiş Wifi-ın MAC adressidir(ətraflı scan etdikdə istədiyimiz wifi-ın MAC adressini göstərməliyik)
 
@@ -67,7 +67,7 @@ _ **Airodump-ng –bssid 30:C5:A6:E7:G8:AA –channel 2 –** __ **write test\_s
 3. Qabağınıza belə bir şey çıxacaq:
 
 
-![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture3.png)
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture3.jpg)
 
 **STATION**** :** STATION istifadəçinin(client) BSSID-sidir.
 
@@ -103,7 +103,7 @@ _ **WEP tipli wifi-lar** __ **ın parolunu hack eləmək üçün:** _
 
 **Aircrack-ng test\_01.cap**
 
-![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture5.png)
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture5.jpg)
 
 **KEY FOUND** yazısından sonraki MAC adressə oxşayan yazı elə paroldur.
 
