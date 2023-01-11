@@ -21,9 +21,8 @@ _YOXLAMAQ ÜÇÜN:_
 
 Terminala iwconfig komandasını yazdıqda **Mode** yazısından sonra **Monitor** yazılmalıdır.
 
-![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture1.png")
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture1.png)
 
-![](RackMultipart20230111-1-l4ew98_html_6c3af8d47dcfbdbe.png)
 
 _Wifilar__ı scan eləmək üçün:_
 
@@ -34,7 +33,7 @@ _Wifilar__ı scan eləmək üçün:_
 
 3. Qabağınıza belə bir siyahı çıxacaq:
 
-![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture2.png")
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture2.png)
 
 **BSSID**** :** bssid göstərilmiş Wifi-ın MAC adressidir(ətraflı scan etdikdə istədiyimiz wifi-ın MAC adressini göstərməliyik)
 
@@ -68,7 +67,7 @@ _ **Airodump-ng –bssid 30:C5:A6:E7:G8:AA –channel 2 –** __ **write test\_s
 3. Qabağınıza belə bir şey çıxacaq:
 
 
-![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture3.png")
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture3.png)
 
 **STATION**** :** STATION istifadəçinin(client) BSSID-sidir.
 
@@ -85,7 +84,7 @@ _Wireshark vasitəsilə decrypt eləmək üçün:_
 3. Açılmış Explorerdə yadda saxladığımız faylın .cap uzantısı ilə olanı seçirik.
 4. Və paketlərin Decrypti açılacaq.
 
-![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture4.png")
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture4.png)
 
 5. Gördüyümüz kimi paketlərdən bildik ki, istifadəçilərdən biri Apple işlədir, digəri isə Xiaomi(router də ola bilər). Az olsa da artıq bir qədər informasiya var.
 
@@ -104,7 +103,7 @@ _ **WEP tipli wifi-lar** __ **ın parolunu hack eləmək üçün:** _
 
 **Aircrack-ng test\_01.cap**
 
-![]("https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture5.png")
+![](https://raw.githubusercontent.com/ulvial1ev/Kali-Linux-Network-Attacks-Azerbaijani-starter-guide/main/Picture5.png)
 
 **KEY FOUND** yazısından sonraki MAC adressə oxşayan yazı elə paroldur.
 
